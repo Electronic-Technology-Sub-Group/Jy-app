@@ -2,7 +2,7 @@
 
 刚刚学完 Vue, 和小伙伴一起开发的一款小程序, 遇到了很多坑, 最后完成了, 由于代码已成屎山, 不想修改迭代了, 后边有时间再重构吧。
 
-## 项目预览
+## 项目部分页面预览
 
 ![detail](https://github.com/user-attachments/assets/daf230da-371d-4560-a846-9d5dd1b4541d)
 
