@@ -1,0 +1,1 @@
+<view class="mv-detail data-v-7c642966"><video class="video data-v-7c642966" src="{{mvUrl}}" autoplay="{{true}}" referrer-policy="origin"></video></view>

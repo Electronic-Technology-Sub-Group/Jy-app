@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "rm-hotcarditem": "/components/rm-hotcarditem/rm-hotcarditem"
+  },
+  "component": true
+}

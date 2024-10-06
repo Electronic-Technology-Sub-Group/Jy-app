@@ -1,0 +1,78 @@
+{
+  "ArrayA": [
+    {
+      "id": "a",
+      "con": "人民日报 | 来自央视金句句句都是高分",
+      "pic": "https://pic4.zhimg.com/v2-9d36185b88cf07dceab5108c0cfd93c5_r.jpg"
+    },
+    {
+      "id": "b",
+      "con": "名人名言 | 学会做人的道理，也拿考场的高分",
+      "pic": "https://pic3.zhimg.com/v2-dbabf6e4273b4d69b3e404aa7c017cc6_r.jpg"
+    },
+    {
+      "id": "c",
+      "con": "家国情怀 | 领略家国情怀",
+      "pic": "https://pic4.zhimg.com/v2-9d536c7e78f6444a39db3e5b8b34df97_r.jpg"
+    },
+    {
+      "id": "d",
+      "con": "美词美句 | 原来句子可以这样美",
+      "pic": "https://pic1.zhimg.com/80/v2-710b01fa6c5af927b59bd6feef0a19f4_720w.webp"
+    },
+    {
+      "id": "e",
+      "con": "奇葩说 | 各大辩手齐聚一堂，领略思想的碰撞",
+      "pic": "https://pic3.zhimg.com/v2-dc5fe2fb2bb0d0528841b4d27b2e3930_r.jpg"
+    },
+    {
+      "id": "f",
+      "con": "感动中国 | 感受独属于中国人的温暖",
+      "pic": "https://pic4.zhimg.com/80/v2-404771e051a5dd8377846d90fc297d2b_720w.webp"
+    },
+    {
+      "id": "g",
+      "con": "中外历史 | 众观古今，领略历史温度",
+      "pic": "https://pic1.zhimg.com/v2-1f6b182c17747f63fb3f3d10d458a270_r.jpg"
+    },
+    {
+      "id": "h",
+      "con": "经典散文 | 看散文诗歌里的一份份柔情",
+      "pic": "https://picx.zhimg.com/v2-88a1de8a5b5ec2668ed5a28b795da7d1_r.jpg"
+    }
+  ],
+  "ArrayB": [
+    {
+      "id": "i",
+      "con": "议论文 | 这是一些极具观点性的句子",
+      "pic": "https://pic4.zhimg.com/v2-be96d9aa92df1810e98beade2b4564ff_r.jpg"
+    },
+    {
+      "id": "j",
+      "con": "记叙文 | 这里收录了很多小小的故事",
+      "pic": "https://pic4.zhimg.com/v2-43a7d74c901fcc6666fdbc16a74a36f5_r.jpg"
+    },
+    {
+      "id": "k",
+      "con": "作文标题 | 一个好的标题是很重要的",
+      "pic": "https://pic3.zhimg.com/80/v2-15c23ccd2a866a4dfa64ba34937f36bc_720w.webp"
+    }
+  ],
+  "ArrayC": [
+    {
+      "id": "l",
+      "con": "描写环境 | 一个好的环境描写能够更加引人入胜",
+      "pic": "https://pic4.zhimg.com/v2-7e1c613fad894bc31838ca7c56874c55_r.jpg"
+    },
+    {
+      "id": "m",
+      "con": "描写人物 | 人物的描写在写作中尤为重要",
+      "pic": "https://pic1.zhimg.com/v2-8029f9e18d1fbdb5b7f99d78828e0b02_r.jpg"
+    },
+    {
+      "id": "n",
+      "con": "描写心理 | 看看大家是如何生动描写一个人的心理活动",
+      "pic": "https://picx.zhimg.com/80/v2-a4b7a908fc6686a73f2f56346b0be2a7_720w.webp"
+    }
+  ]
+}

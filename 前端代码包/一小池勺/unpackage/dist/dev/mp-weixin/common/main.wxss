@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+/* 隐藏水平滚动条（如果需要） */
+::-webkit-scrollbar-horizontal {
+  height: 0;
+}
+/* 隐藏滚动条上的按钮和轨道背景（如果需要） */
+::-webkit-scrollbar-thumb,::-webkit-scrollbar-track {
+  background: transparent;
+}
+

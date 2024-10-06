@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "rm-post": "/components/rm-post/rm-post",
+    "rm-like": "/components/rm-like/rm-like",
+    "rm-other-postfor-info": "/components/rm-otherPostforInfo/rm-otherPostforInfo"
+  }
+}

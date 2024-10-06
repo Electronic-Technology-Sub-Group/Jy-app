@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "rm-abumlitemb": "/components/rm-abumlitemb/rm-abumlitemb"
+  },
+  "component": true
+}

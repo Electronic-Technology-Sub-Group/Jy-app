@@ -1,0 +1,16 @@
+sky:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: myDemo
+    username: root
+    password: 123456
+  alioss:
+    endpoint: oss-cn-beijing.aliyuncs.com
+    access-key-secret: U3DNrFRdmbyrQhq17OknCtcFP3pU7d
+    access-key-id: LTAI5tLpZvdLwBTXLMZbSZB7
+    bucket-name: kab
+  wechat:
+    appid: wx3288933ff871bdf7
+    secret: 6a0a92e4373d24a54a6dc891c737a363

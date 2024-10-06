@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sky.mapper.MomentMapper">
+    <insert id="addMoment" parameterType="com.sky.vo.MomentVO" useGeneratedKeys="true" keyProperty="momentId">
+        insert into moment (user_id, moment_content, moment_create_date, category_id)
+        VALUES (#{userId}, #{momentContent}, #{momentCreateDate}, #{categoryId});
+    </insert>
+
+    <insert id="addMomentPicture">
+        insert into picture (moment_picture, moment_id)
+        values (#{p}, #{momentId})
+    </insert>
+
+
+    <select id="likesNum" resultType="java.lang.Integer">
+        SELECT count(like_id)
+        FROM myDemo.likes
+        WHERE moment_id IN
+        <foreach collection="momentIdList" item="momentId" open="(" separator="," close=")">
+            #{momentId}
+        </foreach>
+    </select>
+
+    <select id="commentsNum" resultType="java.lang.Integer">
+        SELECT count(comment_id)
+        FROM myDemo.comments
+        WHERE moment_id in
+        <foreach collection="momentIdList" item="momentId" open="(" separator="," close=")">
+            #{momentId}
+        </foreach>
+    </select>
+
+
+</mapper>

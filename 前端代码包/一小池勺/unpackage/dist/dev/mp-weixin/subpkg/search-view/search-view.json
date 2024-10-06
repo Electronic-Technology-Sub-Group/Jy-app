@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "rm-cardforsraech": "/components/rm-cardforsraech/rm-cardforsraech"
+  }
+}

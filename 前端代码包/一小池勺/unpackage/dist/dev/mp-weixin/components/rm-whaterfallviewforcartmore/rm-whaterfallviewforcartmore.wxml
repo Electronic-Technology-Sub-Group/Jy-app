@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['toIt',['$0'],['item.sentenceId']]]]]}}" class="rm-container data-v-4503a164" bindtap="__e"><image class="container-img data-v-4503a164" src="{{item.sentencePicture}}"></image><view class="container-con data-v-4503a164"><view class="text data-v-4503a164">{{item.sentenceText}}</view></view></view>

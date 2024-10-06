@@ -1,0 +1,16 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "rm-search": "/components/rm-search/rm-search",
+    "rm-cardformedian": "/components/rm-cardformedian/rm-cardformedian",
+    "rm-scrolxcardforfind-b": "/components/rm-scrolxcardforfindB/rm-scrolxcardforfindB",
+    "rm-hotcard": "/components/rm-hotcard/rm-hotcard",
+    "rm-historycard": "/components/rm-historycard/rm-historycard",
+    "rm-cardmore": "/components/rm-cardmore/rm-cardmore",
+    "rm-whaterfallviewforcartmore": "/components/rm-whaterfallviewforcartmore/rm-whaterfallviewforcartmore",
+    "video-item": "/components/video-item/video-item",
+    "rm-scrolxcardforfind": "/components/rm-scrolxcardforfind/rm-scrolxcardforfind",
+    "rm-displaypoem": "/components/rm-displaypoem/rm-displaypoem"
+  }
+}

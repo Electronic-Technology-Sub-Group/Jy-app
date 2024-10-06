@@ -1,0 +1,1 @@
+<view class="container"><view data-event-opts="{{[['tap',[['toTest',['$event']]]]]}}" class="item" bindtap="__e">健身打卡</view></view>

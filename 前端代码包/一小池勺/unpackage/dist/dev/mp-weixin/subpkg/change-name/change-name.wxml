@@ -1,0 +1,1 @@
+<view class="container"><view class="box"><view class="left">昵称</view><view class="right"><input class="inp" type="text" data-event-opts="{{[['input',[['__set_model',['','value','$event',[]]]]]]}}" value="{{value}}" bindinput="__e"/></view></view><view data-event-opts="{{[['tap',[['changeName',['$event']]]]]}}" class="btn" bindtap="__e">确认修改</view></view>

@@ -1,0 +1,465 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/login/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "用户登录",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+	    ,{
+            "path" : "pages/home/home",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "首页",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/find/find",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "小记",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/myword/myword",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "话题",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/myinfo/myinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": true
+            }
+        }
+		,{
+			"path": "pages/add/add",
+			"style" :
+			{
+			    "navigationBarTitleText": "圈子",
+			    "enablePullDownRefresh": true
+			}
+		}
+    ],
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [
+		{
+			"path": "share_detail/share_detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}                                                                            
+		}
+	    ,{
+                    "path" : "login_getuserinfo/login_getuserinfo",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "history-detail/history-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "sentence-details/sentence-details",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "hot-topic/hot-topic",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#C7EDCC"
+                }
+                
+                }
+                ,{
+                    "path" : "more-circles/more-circles",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "Immersion-reading/Immersion-reading",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "search-view/search-view",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "test/test",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "album-detail/album-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "dt-detail/dt-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "zwgl-detail/zwgl-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false,
+					"navigationBarBackgroundColor": "#F8F8F8"
+                }
+                
+                }
+                ,{
+                    "path" : "jqrb-detail/jqrb-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "mv-detail/mv-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "MV详情",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "diantai-detail/diantai-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "userdefine-info/userdefine-info",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "个人资料",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "change-name/change-name",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "修改昵称",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "settingDetail/settingDetail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "设置",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "essay-material/essay-material",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "materialCatShow/materialCatShow",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "poem-Detail/poem-Detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "more-pabublum/more-pabublum",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "modify-password/modify-password",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "修改密码",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "historyAndDay/historyAndDay",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "事件轴",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "Signature-define/Signature-define",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "修改简介",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "search-others/search-others",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "share-PageTopic/share-PageTopic",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "follow-views/follow-views",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "关注列表",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "fans-views/fans-views",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "粉丝列表",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "patient-detail/patient-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "隐私协议",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "update-detail/update-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "更新公告",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "aboutus-detail/aboutus-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "关于我们",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "dayh-detail/dayh-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "dairy-book/dairy-book",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "body-test/body-test",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "bianqian-page/bianqian-page",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "to-start/to-start",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "addDairly/addDairly",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "xiaoji-detail/xiaoji-detail",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "more-test/more-test",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+	}],
+	"tabBar": {
+		"selectedColor": "#1A5378",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/首页-线性-2.png",
+				"selectedIconPath": "static/首页-线性-2.png",
+				"enablePullDownRefresh": true
+			},
+			{
+				"pagePath": "pages/find/find",
+				"text": "小记",
+				"iconPath": "static/发现 (1).png",
+				"selectedIconPath": "static/发现 (1).png"
+			},
+			{
+				"pagePath": "pages/add/add",
+				"text": "圈子",
+				"iconPath": "static/云社区.png",
+				"selectedIconPath": "static/云社区.png",
+				"enablePullDownRefresh": true
+			},
+			{
+				"pagePath": "pages/myword/myword",
+				"text": "话题",
+				"iconPath": "static/话题.png",
+				"selectedIconPath": "static/话题.png"
+			},
+			{
+				"pagePath": "pages/myinfo/myinfo",
+				"text": "个人",
+				"iconPath": "static/我的.png",
+				"selectedIconPath": "static/我的.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"uniIdRouter": {}
+}

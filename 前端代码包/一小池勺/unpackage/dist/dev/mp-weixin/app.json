@@ -1,0 +1,102 @@
+{
+	"pages": [
+		"pages/login/login",
+		"pages/home/home",
+		"pages/find/find",
+		"pages/myword/myword",
+		"pages/myinfo/myinfo",
+		"pages/add/add"
+	],
+	"subPackages": [
+		{
+			"root": "subpkg",
+			"pages": [
+				"share_detail/share_detail",
+				"login_getuserinfo/login_getuserinfo",
+				"history-detail/history-detail",
+				"sentence-details/sentence-details",
+				"hot-topic/hot-topic",
+				"more-circles/more-circles",
+				"Immersion-reading/Immersion-reading",
+				"search-view/search-view",
+				"test/test",
+				"album-detail/album-detail",
+				"dt-detail/dt-detail",
+				"zwgl-detail/zwgl-detail",
+				"jqrb-detail/jqrb-detail",
+				"mv-detail/mv-detail",
+				"diantai-detail/diantai-detail",
+				"userdefine-info/userdefine-info",
+				"change-name/change-name",
+				"settingDetail/settingDetail",
+				"essay-material/essay-material",
+				"materialCatShow/materialCatShow",
+				"poem-Detail/poem-Detail",
+				"more-pabublum/more-pabublum",
+				"modify-password/modify-password",
+				"historyAndDay/historyAndDay",
+				"Signature-define/Signature-define",
+				"search-others/search-others",
+				"share-PageTopic/share-PageTopic",
+				"follow-views/follow-views",
+				"fans-views/fans-views",
+				"patient-detail/patient-detail",
+				"update-detail/update-detail",
+				"aboutus-detail/aboutus-detail",
+				"dayh-detail/dayh-detail",
+				"dairy-book/dairy-book",
+				"body-test/body-test",
+				"bianqian-page/bianqian-page",
+				"to-start/to-start",
+				"addDairly/addDairly",
+				"xiaoji-detail/xiaoji-detail",
+				"more-test/more-test"
+			]
+		}
+	],
+	"window": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"tabBar": {
+		"selectedColor": "#1A5378",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"text": "首页",
+				"iconPath": "static/首页-线性-2.png",
+				"selectedIconPath": "static/首页-线性-2.png",
+				"enablePullDownRefresh": true
+			},
+			{
+				"pagePath": "pages/find/find",
+				"text": "小记",
+				"iconPath": "static/发现 (1).png",
+				"selectedIconPath": "static/发现 (1).png"
+			},
+			{
+				"pagePath": "pages/add/add",
+				"text": "圈子",
+				"iconPath": "static/云社区.png",
+				"selectedIconPath": "static/云社区.png",
+				"enablePullDownRefresh": true
+			},
+			{
+				"pagePath": "pages/myword/myword",
+				"text": "话题",
+				"iconPath": "static/话题.png",
+				"selectedIconPath": "static/话题.png"
+			},
+			{
+				"pagePath": "pages/myinfo/myinfo",
+				"text": "个人",
+				"iconPath": "static/我的.png",
+				"selectedIconPath": "static/我的.png"
+			}
+		]
+	},
+	"usingComponents": {},
+	"sitemapLocation": "sitemap.json"
+}

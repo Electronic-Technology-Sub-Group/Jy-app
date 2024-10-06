@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sky.mapper.SentenceMapper">
+
+
+    <select id="sentenceByCategory" resultType="com.sky.entity.Sentence" parameterType="java.lang.String">
+        select *from sentence
+        <where>
+            <if test="category != null">
+                and category = #{category}
+            </if>
+        </where>
+        order by sentence_create_date desc
+    </select>
+    <select id="sentenceByName" resultType="com.sky.entity.Sentence" parameterType="java.lang.String">
+        select *from sentence
+        <where>
+            <if test="name != null">
+                and sentence_text like #{name}
+            </if>
+        </where>
+        order by sentence_create_date desc
+    </select>
+    <select id="sentenceByCategoryId" resultType="com.sky.entity.Sentence" parameterType="int">
+        select *from sentence
+        <where>
+            <if test="i != null">
+                and category_id = #{i}
+            </if>
+        </where>
+        order by sentence_create_date desc
+    </select>
+    <select id="categoryVOList" resultType="com.sky.vo.CategoryVO" parameterType="java.util.List">
+        select *
+        from category
+        where album_name in
+        <foreach collection="albumVOList" item="albumVO" separator="," open="(" close=")">
+            #{album.albumName}
+        </foreach>
+    </select>
+
+<!--    delete from sky_take_out.dish_flavor where dish_id in-->
+<!--    <foreach collection="ids" item="id" separator="," open="(" close=")">-->
+<!--        #{id}-->
+<!--    </foreach>-->
+</mapper>

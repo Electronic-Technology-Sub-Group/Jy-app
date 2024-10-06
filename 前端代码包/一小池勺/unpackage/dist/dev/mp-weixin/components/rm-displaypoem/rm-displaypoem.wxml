@@ -1,0 +1,1 @@
+<view class="rm-container data-v-5f537664"><block wx:for="{{poemList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block class="data-v-5f537664"><view data-event-opts="{{[['tap',[['toThisCat',['$0'],[[['poemList','',index]]]]]]]}}" class="item data-v-5f537664" bindtap="__e"><view class="vertical-text data-v-5f537664">{{item}}</view></view></block></block></view>

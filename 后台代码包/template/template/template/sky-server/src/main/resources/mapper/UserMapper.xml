@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sky.mapper.UserMapper">
+
+    <update id="update">
+        update users
+        <set>
+            <if test="name != null and name != '' ">name = #{name},</if>
+            <if test="phone != null">phone = #{phone},</if>
+            <if test="avatar != null">avatar = #{avatar},</if>
+            <if test="sex != null">sex = #{sex},</if>
+            <if test="signature != null">signature= #{signature},</if>
+        </set>
+        where user_id = #{userId}
+
+
+    </update>
+
+    <!--    <insert id="insert" useGeneratedKeys="true" keyProperty="userid">-->
+<!--        insert into sky_take_out.user (openid, name, phone, sex, id_number, avatar, create_time)-->
+<!--        VALUES (#{openid}, #{name}, #{phone}, #{sex}, #{idNumber}, #{avatar}, #{createTime})-->
+<!--    </insert>-->
+<!--    -->
+
+<!--    <select id="countByMap" resultType="java.lang.Integer">-->
+<!--        select count(id)-->
+<!--        from sky_take_out.user-->
+<!--        <where>-->
+<!--            <if test="begin != null">-->
+<!--                and create_time &gt; #{begin}-->
+<!--            </if>-->
+<!--            <if test="end != null">-->
+<!--                and create_time &lt; #{end}-->
+<!--            </if>-->
+<!--        </where>-->
+<!--    </select>-->
+
+
+    <select id="name1List" resultType="java.lang.String">
+
+        SELECT name
+        FROM myDemo.users
+        WHERE user_id in
+        <foreach collection="userIdList" item="userId" open="(" separator="," close=")">
+            #{userId}
+        </foreach>
+    </select>
+
+    <select id="nameList" resultType="java.lang.String">
+        SELECT name
+        FROM myDemo.users
+        WHERE user_id in
+        <foreach collection="userIdList" item="userId" separator="," index="index" open="(" close=")">
+            #{userId}
+        </foreach>
+    </select>
+
+
+    <select id="avatarList" resultType="java.lang.String">
+        SELECT avatar
+        FROM myDemo.users
+        WHERE user_id IN
+        <foreach collection="userIdList" item="userId" open="(" separator="," close=")">
+            #{userId}
+        </foreach>
+    </select>
+
+    <select id="sentenceListBySentenceIdList" parameterType="java.util.List" resultType="com.sky.entity.Sentence">
+        SELECT * FROM sentence WHERE sentence_id IN
+        <foreach item="sentenceId" collection="sentenceIdList" open="(" separator="," close=")">
+            #{sentenceId}
+        </foreach>
+    </select>
+
+
+    <select id="momentListByMomentIdList" resultType="com.sky.entity.Moment" parameterType="java.util.List">
+        SELECT * FROM moment WHERE moment_id IN
+        <foreach item="momentId" collection="momentIdList" open="(" separator="," close=")">
+            #{momentId}
+        </foreach>
+
+    </select>
+
+
+
+</mapper>

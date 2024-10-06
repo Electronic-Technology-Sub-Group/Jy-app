@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['toThisSentence',['$0'],['item.sentenceId']]]]]}}" class="rm-container data-v-a2d92450" bindtap="__e"><view class="container-con data-v-a2d92450"><view class="container-text data-v-a2d92450">{{item.sentenceText}}</view></view></view>

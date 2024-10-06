@@ -1,0 +1,1 @@
+<view class="container"><textarea class="content" maxlength="999" data-event-opts="{{[['input',[['__set_model',['','diaryContent','$event',[]]]]]]}}" value="{{diaryContent}}" bindinput="__e"></textarea><view class="btn"><view data-event-opts="{{[['tap',[['TosaveDiary',['$event']]]]]}}" class="save-btn" bindtap="__e">保存</view></view></view>

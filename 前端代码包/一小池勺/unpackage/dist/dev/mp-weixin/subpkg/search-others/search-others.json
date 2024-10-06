@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "rm-otherpost": "/components/rm-otherpost/rm-otherpost"
+  }
+}

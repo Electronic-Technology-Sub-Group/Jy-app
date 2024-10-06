@@ -1,0 +1,1 @@
+<view class="container"><image class="img" src="/static/删除.png" data-event-opts="{{[['tap',[['deleteIt',['$event']]]]]}}" bindtap="__e"></image><view class="con">{{''+Daylieres.diaryContent+''}}</view></view>

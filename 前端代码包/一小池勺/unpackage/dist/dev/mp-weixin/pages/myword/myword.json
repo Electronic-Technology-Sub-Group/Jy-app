@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "话题",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "rm-search": "/components/rm-search/rm-search"
+  }
+}

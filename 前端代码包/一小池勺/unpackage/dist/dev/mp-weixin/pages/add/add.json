@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "圈子",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "rm-otherpost": "/components/rm-otherpost/rm-otherpost"
+  }
+}

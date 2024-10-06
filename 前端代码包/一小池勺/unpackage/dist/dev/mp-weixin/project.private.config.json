@@ -1,0 +1,267 @@
+{
+	"projectname": "短语",
+	"setting": {
+		"compileHotReLoad": true,
+		"urlCheck": false,
+		"autoAudits": true
+	},
+	"description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+	"condition": {
+		"miniprogram": {
+			"list": [
+				{
+					"name": "find页面开发",
+					"pathName": "pages/find/find",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "社区页面开发",
+					"pathName": "pages/add/add",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "句子详情页面开发",
+					"pathName": "subpkg/sentence-details/sentence-details",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "热门开发",
+					"pathName": "pages/myword/myword",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "话题详情开发",
+					"pathName": "subpkg/hot-topic/hot-topic",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "热门话题圈分类开发",
+					"pathName": "subpkg/more-circles/more-circles",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "抖音阅读开发",
+					"pathName": "subpkg/Immersion-reading/Immersion-reading",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "搜索页面开发",
+					"pathName": "subpkg/search-view/search-view",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "专辑详情页面开发",
+					"pathName": "subpkg/album-detail/album-detail",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "动态详情页面的开发",
+					"pathName": "subpkg/dt-detail/dt-detail",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "每日正念页面开发",
+					"pathName": "subpkg/zwgl-detail/zwgl-detail",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "近期热榜页面开发",
+					"pathName": "subpkg/jqrb-detail/jqrb-detail",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "登录页面开发",
+					"pathName": "pages/login/login",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "个人中心页面开发",
+					"pathName": "pages/myinfo/myinfo",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "subpkg/userdefine-info/userdefine-info",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "作文素材分类页面开发",
+					"pathName": "subpkg/essay-material/essay-material",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "设置详情页面开发",
+					"pathName": "subpkg/settingDetail/settingDetail",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "作文句子详情展示页面开发",
+					"pathName": "subpkg/materialCatShow/materialCatShow",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "名人语录",
+					"pathName": "subpkg/more-pabublum/more-pabublum",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "修改密码",
+					"pathName": "subpkg/modify-password/modify-password",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "发布动态的开发",
+					"pathName": "subpkg/share_detail/share_detail",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "时间轴",
+					"pathName": "subpkg/historyAndDay/historyAndDay",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "修改个人基本信息",
+					"pathName": "subpkg/userdefine-info/userdefine-info",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "简介",
+					"pathName": "subpkg/Signature-define/Signature-define",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "SZkaifa",
+					"pathName": "subpkg/settingDetail/settingDetail",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "s",
+					"pathName": "subpkg/aboutus-detail/aboutus-detail",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "subpkg/dt-detail/dt-detail",
+					"query": "id=308",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "subpkg/Signature-define/Signature-define",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "subpkg/historyAndDay/historyAndDay",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "subpkg/album-detail/album-detail",
+					"query": "id=44",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "pages/home/home",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "subpkg/dayh-detail/dayh-detail",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "subpkg/dairy-book/dairy-book",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "subpkg/to-start/to-start",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "pages/find/find",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				},
+				{
+					"name": "",
+					"pathName": "pages/find/find",
+					"query": "",
+					"launchMode": "default",
+					"scene": null
+				}
+			]
+		}
+	}
+}

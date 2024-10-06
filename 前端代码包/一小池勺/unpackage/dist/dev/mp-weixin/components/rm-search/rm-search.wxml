@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['toSearchView',['$event']]]]]}}" class="rm-search data-v-2b8269ba" bindtap="__e"><image style="width:60rpx;height:60rpx;" src="../../static/rm-search.png" mode class="data-v-2b8269ba"></image><text class="{{['searchText','data-v-2b8269ba',(animation)?'animation':'']}}">{{searchText[index]}}</text></view>
